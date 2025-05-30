@@ -45,6 +45,4 @@ python gtd.py "https://www.youtube.com/watch?v=VIDEO_ID" --format FORMAT_CODE
 - typer
 - rich
 
-Watch a [demo video](https://www.youtube.com/watch?v=YOUR_VIDEO_ID) of the script in action.
 
-[![Demo Video Screenshot](path/to/your/screenshot.png)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
