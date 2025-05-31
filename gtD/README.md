@@ -1,48 +1,51 @@
-# gtD - YouTube Video Downloader CLI
+# GTD - YouTube Video Downloader CLI Tool
 
-A simple command-line interface tool for downloading videos using yt-dlp.
+A powerful command-line tool for downloading YouTube videos with ease.
 
 ## Installation
 
-1. Make sure you have Python 3.7+ installed
-2. Install the required dependencies:
+You can install GTD using pip:
 
 ```bash
-pip install -r requirements.txt
+pip install gtd
 ```
+
+## Requirements
+
+- Python 3.7 or higher
+- Dependencies:
+  - typer >= 0.9.0
+  - yt-dlp >= 2023.0.0
+  - rich >= 13.0.0
 
 ## Usage
 
-Basic usage:
+After installation, you can use the `gtd` command in your terminal:
 
 ```bash
-python gtd.py "https://www.youtube.com/watch?v=VIDEO_ID"
-```
-
-This will:
-
-1. Show you all available formats for the video
-2. Prompt you to select a format code
-3. Download the video in your selected format
-
-You can also specify the format directly:
-
-```bash
-python gtd.py "https://www.youtube.com/watch?v=VIDEO_ID" --format FORMAT_CODE
+gtd [URL]
 ```
 
 ## Features
 
-- View all available video formats and resolutions
-- Select specific format for download
-- Progress bar during download
-- Support for various video platforms (YouTube, Vimeo, etc.)
+- Simple and intuitive command-line interface
+- Powered by yt-dlp for reliable video downloads
+- Rich terminal output for better user experience
 
-## Requirements
+## License
 
-- Python 3.7+
-- yt-dlp
-- typer
-- rich
+This project is licensed under the MIT License - see the LICENSE file for details.
 
+## Contributing
 
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## Project Links
+
+- [Homepage](https://github.com/govinda520/gtd)
+- [Repository](https://github.com/govinda520/gtd.git)
+- [Issues](https://github.com/govinda520/gtd/issues)
+
+## Author
+
+Govinda Tudu(tudug0260@gmail.com)
