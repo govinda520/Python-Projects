@@ -40,11 +40,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## Project Links
-
-- [Homepage](https://github.com/govinda520/gtd)
-- [Repository](https://github.com/govinda520/gtd.git)
-- [Issues](https://github.com/govinda520/gtd/issues)
 
 ## Author
 
