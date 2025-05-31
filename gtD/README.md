@@ -4,6 +4,14 @@ A powerful command-line tool for downloading YouTube videos with ease.
 
 ## Installation
 
+
+First download all dependencies:
+
+```bash
+winget install yt-dlp.yt-dlp -e && pip install "rich>=13.7.0" "typer>=0.9.0"
+
+```
+
 You can install GTD using pip:
 
 ```bash
